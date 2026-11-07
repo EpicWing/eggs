@@ -44,9 +44,9 @@ On every start the Python egg installs the extra packages and the requirements f
 - With a token, the clone URL (and so the token) is stored in the git config inside the server folder. Use a read-only token.
 - The eggs use the images from [`ghcr.io/ptero-eggs/yolks`](https://github.com/ptero-eggs/yolks). Pterodactyl lets you choose the version, EpicWing uses the first image in the list.
 
-## Status
+## Compatibility
 
-Beta. The eggs import cleanly into EpicWing. They use the standard Pterodactyl egg format and should work in Pterodactyl and compatible panels, but they have not been widely tested there yet. If something does not work, please open an issue.
+The eggs import cleanly into EpicWing. They use the standard Pterodactyl egg format (PTDL_v2), so they should also work in Pterodactyl and compatible panels. If something does not work in your panel, please open an issue.
 
 ## Support
 
