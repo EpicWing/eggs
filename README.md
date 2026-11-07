@@ -48,6 +48,13 @@ On every start the Python egg installs the extra packages and the requirements f
 
 Beta. The eggs import cleanly into EpicWing. They use the standard Pterodactyl egg format and should work in Pterodactyl and compatible panels, but they have not been widely tested there yet. If something does not work, please open an issue.
 
+## Support
+
+- Discord: https://discord.gg/tc7xtNPsmh
+- Email: support@epicwing.de or info@epicwing.de
+- Questions and ideas: [Discussions](https://github.com/EpicWing/eggs/discussions)
+- Bugs: [open an issue](https://github.com/EpicWing/eggs/issues/new/choose)
+
 ## Contributing
 
 Issues and pull requests are welcome. New eggs go into the `eggs` folder. Please write names, descriptions and comments in English.

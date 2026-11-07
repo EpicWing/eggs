@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/EpicWing/eggs/discussions
+    about: Ask questions and share ideas in Discussions.
+  - name: Discord
+    url: https://discord.gg/tc7xtNPsmh
+    about: Chat with the community and get help.

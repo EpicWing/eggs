@@ -1,0 +1,34 @@
+name: Bug report
+description: An egg does not import or does not work as expected
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: egg
+    attributes:
+      label: Egg
+      options:
+        - Discord Bot Python
+        - Discord Bot Node.js
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: panel
+    attributes:
+      label: Panel and version
+      placeholder: EpicWing v0.2.0-beta, Pterodactyl 1.x, ...
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console output
+      description: Output from the installation log and the console. Remove tokens and passwords first.
+      render: shell
